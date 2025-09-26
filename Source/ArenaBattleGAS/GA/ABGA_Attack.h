@@ -29,10 +29,24 @@ public:
 	virtual void InputPressed(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
 		const FGameplayAbilityActivationInfo ActivationInfo) override;
 
+
+
 protected:
 	UFUNCTION()
 	void OnCompleteCallback();
 
 	UFUNCTION()
 	void OnInterruptCallback();
+
+	FName GetNextSection();
+	void StartComboTimer();
+	void CheckComboInput();
+
+protected:
+	TObjectPtr<class UABComboActionData> CurrentComboData;
+
+	uint8 CurrentCombo = 0;
+	FTimerHandle ComboTimerHandle;
+	bool HasNextComboInput = false;
 };
+
