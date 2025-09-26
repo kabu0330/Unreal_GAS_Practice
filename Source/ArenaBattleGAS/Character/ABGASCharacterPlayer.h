@@ -7,6 +7,13 @@
 #include "Character/ABCharacterPlayer.h"
 #include "ABGASCharacterPlayer.generated.h"
 
+UENUM(BlueprintType)
+enum class EGAType : uint8
+{
+	Jump,
+	Attack,
+};
+
 UCLASS()
 class ARENABATTLEGAS_API AABGASCharacterPlayer : public AABCharacterPlayer, public IAbilitySystemInterface
 {
@@ -17,8 +24,16 @@ public:
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	virtual void PossessedBy(AController* NewController) override;
+	virtual void OnRep_PlayerState() override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void Tick(float DeltaTime) override;
+	
 protected:
 	virtual void BeginPlay() override;
+	void SetupGASInputComponent();
+	void GASInputPressed(EGAType InputId);
+	void GASInputReleased(EGAType InputId);
+	void SetupAbilitySystemComponent();
 
 	UPROPERTY(EditAnywhere, Category = GAS)
 	TObjectPtr<UAbilitySystemComponent> ASC;
@@ -26,8 +41,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = GAS)
 	TArray<TSubclassOf<class UGameplayAbility>> StartAbilities;
 
-public:
-	virtual void Tick(float DeltaTime) override;
-	
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UPROPERTY(EditAnywhere, Category = GAS)
+	TMap<EGAType, TSubclassOf<class UGameplayAbility>> StartInputAbilities;
+
 };
