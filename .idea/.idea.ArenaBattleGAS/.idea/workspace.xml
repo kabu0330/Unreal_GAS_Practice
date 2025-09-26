@@ -13,15 +13,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f93dc75-6306-4536-af32-53d48e35967f" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Jump.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Jump.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_JumpAndWaitForLanding.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_JumpAndWaitForLanding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArenaBattleGAS.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ArenaBattleGAS.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Animation/AnimNotify_GASAttackHitCheck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Animation/AnimNotify_GASAttackHitCheck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Attribute/ABCharacterAttributeSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Attribute/ABCharacterAttributeSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterNonPlayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterNonPlayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_AttackHitCheck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_AttackHitCheck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_Trace.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_Trace.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/TA/ABTA_Trace.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/TA/ABTA_Trace.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattleGas/Animation/AM_ComboAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattleGas/Animation/AM_ComboAttack.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ArenaBattleGas/Blueprint/BP_ABGASChararcterPlayer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattleGas/Blueprint/BP_ABGASChararcterPlayer.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ArenaBattleGas/Blueprint/GA/BPGA_Attack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattleGas/Blueprint/GA/BPGA_Attack.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ArenaBattleGas/Maps/GASStep2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ArenaBattleGas/Maps/GASStep2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterPlayer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +55,29 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://14" root0="FORCE_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://15" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://22" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Animation/AnimNotify_GASAttackHitCheck.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Animation/AnimNotify_GASAttackHitCheck.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Attribute/ABCharacterAttributeSet.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Attribute/ABCharacterAttributeSet.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterNonPlayer.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterNonPlayer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterPlayer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Character/ABGASCharacterPlayer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Attack.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_AttackHitCheck.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_AttackHitCheck.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Jump.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Jump.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Rotate.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/ABGA_Rotate.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_JumpAndWaitForLanding.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_JumpAndWaitForLanding.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_Trace.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/AT/ABAT_Trace.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/TA/ABTA_Trace.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/GA/TA/ABTA_Trace.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Player/ABGASPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Player/ABGASPlayerState.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ArenaBattleGAS/Prop/ABGASFountain.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -71,6 +90,8 @@
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/CoreUObject/Private/UObject/GarbageCollection.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/Engine/Classes/Animation/AnimNotifies/AnimNotify.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h" root0="FORCE_HIGHLIGHTING" />
@@ -242,7 +263,7 @@
       <updated>1758711397171</updated>
       <workItem from="1758711397579" duration="919000" />
       <workItem from="1758712346199" duration="12158000" />
-      <workItem from="1758834954374" duration="28610000" />
+      <workItem from="1758834954374" duration="39481000" />
     </task>
     <task id="LOCAL-00001" summary="캐릭터 입력 처리">
       <option name="closed" value="true" />
@@ -252,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758896079956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="어빌리티 태스크">
+      <option name="closed" value="true" />
+      <created>1758918129467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758918129467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,10 +289,22 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="캐릭터 입력 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="캐릭터 입력 처리" />
+    <MESSAGE value="어빌리티 태스크" />
+    <option name="LAST_COMMIT_MESSAGE" value="어빌리티 태스크" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -97,7 +97,6 @@ void AABGASCharacterPlayer::SetupGASInputComponent()
 
 void AABGASCharacterPlayer::GASInputPressed(EGAType InputId)
 {
-	UE_LOG(LogTemp, Warning, TEXT("GASInputPressed"));
 	FGameplayAbilitySpec* Spec = ASC->FindAbilitySpecFromInputID(static_cast<int>(InputId));
 	if (Spec)
 	{
