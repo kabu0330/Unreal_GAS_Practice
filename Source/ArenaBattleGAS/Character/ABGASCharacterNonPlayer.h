@@ -4,29 +4,34 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemInterface.h"
-#include "GameFramework/PlayerState.h"
-#include "ABGASPlayerState.generated.h"
+#include "Character/ABCharacterNonPlayer.h"
+#include "ABGASCharacterNonPlayer.generated.h"
 
 class UABCharacterAttributeSet;
-/**
- * 
- */
+
 UCLASS()
-class ARENABATTLEGAS_API AABGASPlayerState : public APlayerState, public IAbilitySystemInterface
+class ARENABATTLEGAS_API AABGASCharacterNonPlayer : public AABCharacterNonPlayer, public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
 public:
-	AABGASPlayerState();
-	
+	AABGASCharacterNonPlayer();
+
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void Tick(float DeltaTime) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
+	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere, Category = GAS)
 	TObjectPtr<UAbilitySystemComponent> ASC;
 
 	UPROPERTY(EditAnywhere, Category = GAS)
 	TObjectPtr<UABCharacterAttributeSet> AttributeSet;
-private:
-	
+
+public:
+
 };
